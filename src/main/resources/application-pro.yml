@@ -1,0 +1,43 @@
+server:
+  port: 8078
+  #ssl:
+    #enabled: true
+    #keyAlias: gdoc-batch
+    #key-store: /apli/gestordocumental/batch/certificado/gdoc-batch.p12
+    #keyStoreType: PKCS12
+    #key-store-password: sysFc.F1nT1
+    #protocol: TLS
+    #enabled-protocols: TLSv1.2
+
+debug: true
+
+spring:
+  devtools:
+    restart:
+      enabled: false
+  datasource:
+    url: jdbc:oracle:thin:@172.20.0.24:1523:CNGDB
+    username: USER_GDOC
+    password: us3r_gd0c$.PrD
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    show-sql: true
+    use_sql_comments: true
+    format_sql: true
+    type: trace
+    properties:
+      hibernate:
+        ddl-auto: update
+        default_schema: dbprod
+
+
+logging:
+  level:
+    org:
+      springframework: ERROR
+      hibernate:
+        SQL: ERROR
+#        type:
+#          descriptor:
+#            sql:
+#              BasicBinder: TRACE

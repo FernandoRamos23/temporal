@@ -1,0 +1,52 @@
+server:
+  port: 8078
+  ## 8079 -- Batch
+  ##
+  #ssl:
+    #enabled: true
+    #keyAlias: gdoc-batch
+    #key-store: /apli/gestordocumental/batch/certificado/gdoc-batch.p12
+    #keyStoreType: PKCS12
+    #key-store-password: SysFc.DesFc
+    #protocol: TLS
+    #enabled-protocols: TLSv1.2
+
+#jasypt:
+#  encryptor:
+#    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+#    algorithm: PBEWithMD5AndDES
+#    password: lima
+
+debug: false
+
+spring:
+  devtools:
+    restart:
+      enabled: false
+#  datasource:
+#    url: jdbc:oracle:thin:@172.20.6.16:1521:ODES
+#    username: USER_GDOC
+#    password: GDOC.1234
+#    driver-class-name: oracle.jdbc.OracleDriver
+#  jpa:
+#    show-sql: true
+#    use_sql_comments: true
+#    format_sql: true
+#    type: trace
+#    properties:
+#      hibernate:
+#        ddl-auto: update
+#        default_schema: desarrollo
+
+
+
+logging:
+  level:
+    org:
+      springframework: ERROR
+      hibernate:
+        SQL: ERROR
+#        type:
+#          descriptor:
+#            sql:
+#              BasicBinder: TRACE

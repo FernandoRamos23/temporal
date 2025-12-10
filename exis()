@@ -1,0 +1,35 @@
+[33mcommit 64b6af691f108da755056b16df70b20db70ff3bc[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/equifax[m[33m, [m[1;31morigin/feature/equifax[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Raul Ramos <raul.ramos@SESDIGITAL.LOCAL>
+Date:   Thu Nov 6 14:57:15 2025 -0500
+
+    Pruebas
+
+[33mcommit aa5928bfa3424231db1b62803e996426f6ee75e1[m
+Author: Luis Gallardo <luis.gallardo@SESDIGITAL.LOCAL>
+Date:   Fri Oct 31 18:28:10 2025 -0500
+
+    se agrega comentario de prueba
+
+[33mcommit ba29d8081b68f27dd1d954474d3d4243c402c9fc[m
+Author: Ernesto J. Rodriguez Lara <ernesto.rodriguez@confianza.pe>
+Date:   Sun Oct 26 20:29:58 2025 -0500
+
+    first commit
+
+[33mcommit f20f130e0ce6ead54d7f21a3456227f85aa2dbfe[m
+Author: Ernesto J. Rodriguez Lara <ernesto.rodriguez@confianza.pe>
+Date:   Thu Oct 23 23:23:31 2025 -0500
+
+    Agrega controles de errores try
+
+[33mcommit 67c3a6e8f48306271ab3f44be9d95deac431aa26[m
+Author: Ernesto J. Rodriguez Lara <ernesto.rodriguez@confianza.pe>
+Date:   Thu Oct 23 18:23:21 2025 -0500
+
+    flujo completo servicios
+
+[33mcommit 7e37b9e6a4c629618feda1c6038f36bf8bc4ebb5[m
+Author: Ernesto J. Rodriguez Lara <ernesto.rodriguez@confianza.pe>
+Date:   Thu Oct 23 13:17:47 2025 -0500
+
+    first commit
